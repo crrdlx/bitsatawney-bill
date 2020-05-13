@@ -3,4 +3,4 @@ Groundhog Punxatawney Phil predicts weather.
 
 Honey badger Bitsatawney Bill predicts bitcoin.  
 
-Let’s check the accuracy of bitcoin predictors.
+Lots of people predict bitcoin's price as well, let’s check the accuracy of those bitcoin price predictors.
