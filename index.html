@@ -94,17 +94,18 @@ h6 {
 <p>Meanwhile Alice and Bob have moved on to newer and bolder predictions.</p>
 <h2>But, Bitsatawney Bill don't give a shucks about their new prediction.</h2>
 <p>Bill set up a regression model to call 'em out on their original prediction. It looks like this:</p>
-<p style="text-align:center">x = p * t * d * k</p>
+<p style="text-align:center">x = 100 + [(m - p)/m] * t * k</p>
 x = accuracy, as defined by Bitsatawney Bill<br>
 p = predicted price<br>
-t = time in days between prediction to targeted price date<br>
-d = difference between predicted and actual price<br>
+t = time in days between prediction to the targeted mature price date<br>
+m = "mature" price<br>
 k = some constant, a special number<br>
 <p>Notes:</p>
 <ol>
+<li>100 is perfect prediction.</li>
 <li>Regarding the p, that's in USD.</li>
 <li>Regarding the t, Bill figures it's a lot harder to predict the price 365 days away than to predict the price tomorrow. So, he factored the days into his model. Bill is smart.</li>
-<li>Regarding the d, the difference is actual price minus predicted price</li>
+<li>Regarding the m, that's the price on the date predicted, when it "matures"</li>
 <li>Regarding the k, it's a magic number that does the magic. Bill will explore, test, tweek, and refine this constant 'til he gets it real good. Like how much pumpkin pie spice to put in the pie mix. Bill is smart.</li>
 </ol>
 </body>
