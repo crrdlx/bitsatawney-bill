@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bitsatawney Bill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body {
+      background: #fefefe;
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 22px;
+      font: 18px/1.5 -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+                   'avenir next', avenir, /* MacOS and iOS */
+                   'Segoe UI', /* Windows */
+                   'lucida grande', /* Older MacOS */
+                   'helvetica neue', helvetica, /* Older MacOS */
+                   'Fira Sans', /* Firefox OS */
+                   roboto, noto, /* Google stuff */
+                   'Droid Sans', /* Old Google stuff */
+                   cantarell, oxygen, ubuntu, /* Linux stuff */
+                   'franklin gothic medium', 'century gothic', /* Windows stuff */
+                   'Liberation Sans', /* Linux */
+                   sans-serif; /* Everything else */;
+      color: #222;
+    }
+
+supersize {  /* this is fancified text, but it can be named as anything */
+    font-style: normal;
+    font-size: 120%;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+      
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+  border-bottom: solid 0.1rem firebrick;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+h5 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+h6 {
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+    img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+    }</style>
+  </head>
+
+<body>
+<a name="home_title"></a>
+<h1 id="bitsatawney-bill"><span style="color:darkorange"> <strong>Bitsatawney Bill</strong></span></h1>
+<p style="text-align:center">Punxatawney Phil predicts the weather. | Bitsatawney Phil predicts the bitcoin.</p>
+<p style="text-align:center"><em>Callin' out suckas who predict the price of bitcoin.</em></p>
+<p>Here's the procedure: Alice shoots out a crazy bold price prediction...ideally either stupid high, or crazy low. That way she'll get more hits and retweets. Maybe she even sets a target date. Okay. We can check this, right? But, here's how it typically goes...</p>
+<ol>
+<li>she tweaks the target price a little, or...</li>
+<li>she alters the target date, or...</li>
+<li>she just puts out a bold new price prediction, or...</li>
+<li>we forget about the first prediction anyway, and...</li>
+<li>even if we remember, we don't have any way to measure how accurate she actually was.</li>
+</ol>
+<p>When we see that Alice was sorta right with her prediction, and kinda wrong too, how do we evaluate if she's really good at this? We ask, "Did Alice do better than Bob's prediction a while back?" ¯\_(ツ)_/¯</p>
+<p>Meanwhile Alice and Bob have moved on to newer and bolder predictions.</p>
+<h2>But, Bitsatawney Bill don't give a shucks about their new prediction.</h2>
+<p>Bill set up a regression model to call 'em out on their original prediction. It looks like this:</p>
+<p style="text-align:center">x = p * t * d * k</p>
+x = accuracy, as defined by Bitsatawney Bill<br>
+p = predicted price<br>
+t = time in days between prediction to targeted price date<br>
+d = difference between predicted and actual price<br>
+k = some constant, a special number<br>
+<p>Notes:</p>
+<ol>
+<li>Regarding the p, that's in USD.</li>
+<li>Regarding the t, Bill figures it's a lot harder to predict the price 365 days away than to predict the price tomorrow. So, he factored the days into his model. Bill is smart.</li>
+<li>Regarding the d, the difference is actual price minus predicted price</li>
+<li>Regarding the k, it's a magic number that does the magic. Bill will explore, test, tweek, and refine this constant 'til he gets it real good. Like how much pumpkin pie spice to put in the pie mix. Bill is smart.</li>
+</ol>
+</body>
+</html>
