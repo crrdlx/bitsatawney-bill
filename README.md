@@ -1,9 +1,16 @@
 # bitsatawney-bill
-Groundhog Punxatawney Phil predicts weather. 
 
-Honey badger Bitsatawney Bill predicts bitcoin.  
+Here's the procedure: Alice shoots out a crazy bold price prediction...ideally either stupid high, or crazy low. That way she'll get more hits and retweets. Maybe she even sets a target date. Okay. We can check this, right? But, here's how it typically goes...
 
-Lots of people predict bitcoin's price as well, let’s check the accuracy of those bitcoin price predictors.
+she tweaks the target price a little, or...
+she alters the target date, or...
+she just puts out a bold new price prediction, or...
+we forget about the first prediction anyway, and...
+even if we remember, we don't have any way to measure how accurate she actually was.
+When we see that Alice was sorta right with her prediction, and kinda wrong too, how do we evaluate if she's really good at this? We ask, "Did Alice do better than Bob's prediction a while back?" ¯\_(ツ)_/¯
 
+Meanwhile Alice and Bob have moved on to newer and bolder predictions.
 
-"Flotorized" on the Florincoin blockchain at https://florincoin.info/tx/45b0fdbef08df79877ee25c8ef4572188dbb1e7aa3b67ad2eef79078ac84f597
+But, Bitsatawney Bill don't give a shucks about their new prediction.
+
+Bill set up a regression model to call 'em out on their original prediction.
